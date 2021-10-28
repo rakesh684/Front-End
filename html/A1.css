@@ -6,3 +6,72 @@
 	font-style: italic;
 	color: palevioletred;
 }
+
+.t1 {
+  width: 500px;
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+.t2 {
+  text-align: center;
+  font-weight: bolder;
+
+}
+.t3{
+  width: 500px;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+.t1 td{
+  border: 1px solid black;
+
+}
+#d1 .t1 td:nth-child(even){
+  background-color: maroon;
+}
+#d1 .t1 td:nth-child(odd){
+  background-color: mediumspringgreen;
+}
+#d1 .t1 tr:first-child td{
+  background-color: orange;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+#d1{
+  width: 500px;
+  margin-top: 16px;
+  margin-left: 0px;
+  background-color: rgb(2, 0, 128);
+  color: rgb(255, 0, 0);
+}
+
+#d2{
+  width: 500px;
+  margin-top: 16px;
+  margin-left: 0px;
+  background-color: green;
+  color: blue;
+}
+#d2 .t1 tr:nth-child(even){
+  background-color: greenyellow;
+
+}
+#d2 .t1 tr:nth-child(odd){
+  background-color: grey;
+  border-collapse: collapse;
+}
+#d3{
+  height: 100px;
+  width: 500px;
+  margin-top: 16px;
+  margin-left: 0px;
+}
+#d3 td{
+  border: 1px solid black;
+}
+.td1{
+  border: 2px solid green !important;
+}
